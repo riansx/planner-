@@ -1,0 +1,21 @@
+.planner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px 59px;
+}
+
+.card {
+    background: rgba(246, 105, 133, 0.27);
+    border: 1px solid #333;
+    height: 243px;
+    width: 321px;
+    text-align: center;
+    
+}
+
+.domingo {
+    grid-column: 1 / -1;
+    height: 150px;
+    width: 1080px;
+}
+
